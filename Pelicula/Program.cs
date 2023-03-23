@@ -28,7 +28,7 @@ namespace Pelicula
         public void SetAño(int year){año=year;}
         
         public string GetGenero(){return genero;}
-        public void SetGenero(string pa){genero=ge;}
+        public void SetGenero(string gene){genero=gene;}
 
         public string GetDirector(){return director;}
         public void SetDirector(string direc){director=direc;}
@@ -67,11 +67,11 @@ namespace Pelicula
 
 
         //Métodos 
-         public string GetNombre(){return nombre;}
+        public string GetNombre(){return nombre;}
         public void SetNombre(string nomb){nombre= nomb;}
 
         public int GetAño(){return año;}
-        public void SetAño(int añe){año=añe;}
+        public void SetAño(int añi){año=añi;}
 
 
 
